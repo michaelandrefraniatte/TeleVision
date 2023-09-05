@@ -100,6 +100,10 @@ namespace TeleVision
                 IntPtr window = FindWindowByCaption(IntPtr.Zero, WINDOW_NAME);
                 SetWindowLong(window, GWL_STYLE, WS_CAPTION | WS_POPUP | WS_BORDER | WS_SYSMENU | WS_TABSTOP | WS_VISIBLE | WS_OVERLAPPED | WS_MINIMIZEBOX | WS_MAXIMIZEBOX);
                 DrawMenuBar(window);
+                WINDOW_NAME = "TeleVision";
+                window = FindWindowByCaption(IntPtr.Zero, WINDOW_NAME);
+                SetWindowLong(window, GWL_STYLE, WS_CAPTION | WS_POPUP | WS_BORDER | WS_SYSMENU | WS_TABSTOP | WS_VISIBLE | WS_OVERLAPPED | WS_MINIMIZEBOX | WS_MAXIMIZEBOX);
+                DrawMenuBar(window);
             }
             valchanged(1, GetAsyncKeyState(Keys.PageDown));
             if (wd[1] == 1)
@@ -110,6 +114,11 @@ namespace TeleVision
                 IntPtr window = FindWindowByCaption(IntPtr.Zero, WINDOW_NAME);
                 SetWindowLong(window, GWL_STYLE, WS_SYSMENU);
                 SetWindowPos(window, -2, width / 20, height / 10, width * 8 / 11, height * 8 / 10, 0x0040);
+                DrawMenuBar(window);
+                WINDOW_NAME = "TeleVision";
+                window = FindWindowByCaption(IntPtr.Zero, WINDOW_NAME);
+                SetWindowLong(window, GWL_STYLE, WS_SYSMENU);
+                SetWindowPos(window, -2, 0, 0, width, height, 0x0040);
                 DrawMenuBar(window);
                 this.Size = new Size(width, height);
                 this.Location = new Point(0, 0);
