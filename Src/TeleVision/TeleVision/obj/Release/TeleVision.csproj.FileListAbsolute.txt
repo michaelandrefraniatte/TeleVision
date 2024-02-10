@@ -29,7 +29,6 @@ C:\Users\micha\Documents\github\TeleVision\Src\TeleVision\TeleVision\bin\Release
 C:\Users\micha\Documents\github\TeleVision\Src\TeleVision\TeleVision\bin\Release\TeleVision.pdb
 C:\Users\micha\Documents\github\TeleVision\Src\TeleVision\TeleVision\bin\Release\Newtonsoft.Json.xml
 C:\Users\micha\Documents\github\TeleVision\Src\TeleVision\TeleVision\obj\Release\TeleVision.csproj.AssemblyReference.cache
-C:\Users\micha\Documents\github\TeleVision\Src\TeleVision\TeleVision\obj\Release\TeleVision.csproj.SuggestedBindingRedirects.cache
 C:\Users\micha\Documents\github\TeleVision\Src\TeleVision\TeleVision\obj\Release\TeleVision.Form1.resources
 C:\Users\micha\Documents\github\TeleVision\Src\TeleVision\TeleVision\obj\Release\TeleVision.Properties.Resources.resources
 C:\Users\micha\Documents\github\TeleVision\Src\TeleVision\TeleVision\obj\Release\TeleVision.csproj.GenerateResource.cache
